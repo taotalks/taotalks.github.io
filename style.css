@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.25em;
+
+}
+
+#navmenu {
+  list-style: none;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.navitems a:hover{
+  background-color: #CF8E3E;
+  color: white;
+  padding: 8.5px;
+  border-bottom: solid #962B2B 4px;
+}
+
+.navitems {
+  margin-bottom: 25px;
+  color: white;
+  margin-right: 80px;
+  padding: 10px;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: #CF8E3E;
+  background-color: rgba(0, 0, 0 , 0.2);;
+}
+
+.nav{
+  float: left;
+  width: 250px;
+  background-color: #962B2B;
+  padding-top: 25px;
+  padding-bottom: 125px;
+  margin-right: 50px;
+}
+
+#homepage{
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+#columnwrapper{
+  width: 100%;
+  margin: 50px;
+  min-width: 1000px;
+}
+
+.column{
+  float: left;
+  width: 64.5%;
+  padding: 30px;
+  background-color: rgba(150, 43, 43, 0.7);;
+  color: black;
+  margin-bottom: 50px;
+
+}
+
+
+h1{
+  width: 25%;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin: auto;
+  background-color: #962B2B;
+  margin-bottom: 30px;
+  margin-left: 40%;
+  padding: 25px;
+  color: white;
+  border: solid #CF8E3E 5px;
+}
+
+h2{
+  width: 150px;
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+  font-size: 2em;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 1%;
+}
+
+body{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/db/Painted_Pony_Bean.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: scroll;
+  font-family: "Montserrat", sans-serif;
+}
+
+.column2{
+  padding: 25px;
+  background-color: rgba(207, 142, 62 , 0.7);;
+}
+
+.menu{
+  float: left;
+  width: 60%;
+}
+.menuitems{
+  list-style-type: decimal;
+  margin: 0 0 50px 0;
+  font-size: 1.25em;
+  padding: 25px;
+  padding-left: 50px;
+  background-color: rgba(207, 142, 62 , 0.7);;
+}
+
+#menuitem{
+  list-style-type: decimal;
+  margin: 0 0 75px 0;
+}
+
+.menuimages{
+  float: left;
+  width: 40%;
+
+}
+#menuimage{
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+
+#menuimageApp{
+  padding-left: 100px;
+  margin-bottom: 75px;
+  margin-top: 170px;
+}
+
+#menuimageSoup{
+  padding-left: 100px;
+  margin-bottom: 140px;
+}
+
+#menuimageSand1{
+  padding-left: 100px;
+  margin-bottom: 230px;
+}
+#menuimageSand2{
+  padding-left: 100px;
+  margin-bottom: 235px;
+}
+
+.ourstory{
+  font-size: 1.25em;
+}
+#textsize{
+  font-size: 1.3em;
+}
+
+#creative{
+  color: white;
+  width 60%;
+  padding: 25px;
+  font-size: .55em
+}
