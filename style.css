@@ -3,7 +3,7 @@
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: "Fjalla One", sans-serif;
   font-size: 1.25em;
 
@@ -16,10 +16,9 @@ a{
 }
 
 .navitems a:hover{
-  background-color: #CF8E3E;
   color: white;
   padding: 8.5px;
-  border-bottom: solid #962B2B 4px;
+  border-bottom: solid #3a8c36 4px;
 }
 
 .navitems {
@@ -29,17 +28,17 @@ a{
   padding: 10px;
   text-align: center;
   border-bottom-style: solid;
-  border-bottom-color: #CF8E3E;
+  border-bottom-color: black;
   background-color: rgba(0, 0, 0 , 0.2);;
 }
 
 .nav{
   float: left;
   width: 250px;
-  background-color: #962B2B;
+  background-color: white;
   padding-top: 25px;
   padding-bottom: 125px;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 #homepage{
@@ -56,8 +55,8 @@ a{
 .column{
   float: left;
   width: 64.5%;
-  padding: 30px;
-  background-color: rgba(150, 43, 43, 0.7);;
+  padding: 20px;
+  background-color: rgba(58, 140, 54, 0.6);;
   color: black;
   margin-bottom: 50px;
 
@@ -71,18 +70,17 @@ h1{
   font-size: 3em;
   text-align: center;
   margin: auto;
-  background-color: #962B2B;
+  background-color:rgba(255,255,255,0.4) ;
   margin-bottom: 30px;
   margin-left: 40%;
   padding: 25px;
-  color: white;
-  border: solid #CF8E3E 5px;
+  color: #3a8c36;
 }
 
 h2{
   width: 150px;
   font-family: "Fjalla One", sans-serif;
-  color: white;
+  color: black;
   font-size: 2em;
   text-decoration: underline;
   background-color: rgba(0, 0, 0, 0.7);
@@ -91,12 +89,13 @@ h2{
 }
 
 body{
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/db/Painted_Pony_Bean.JPG");
+  background-image: url(forest.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: scroll;
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 .column2{
@@ -160,8 +159,8 @@ body{
 }
 
 #creative{
-  color: white;
+  color: black;
   width 60%;
   padding: 25px;
-  font-size: .55em
+  font-size: .50em
 }
